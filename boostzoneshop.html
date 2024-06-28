@@ -30,12 +30,33 @@
         }
         main {
             padding: 2em;
+            text-align: center; /* Wyśrodkowanie zawartości */
         }
         footer {
             background-color: #333;
             color: #fff;
             padding: 1em;
             text-align: center;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+            outline: none;
+            color: #fff;
+            background-color: #4CAF50;
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 4px #999;
+        }
+        .button:hover {background-color: #45a049}
+        .button:active {
+            background-color: #45a049;
+            box-shadow: 0 2px #666;
+            transform: translateY(2px);
         }
     </style>
 </head>
@@ -51,6 +72,8 @@
     <main>
         <h2>Sekcja główna</h2>
         <p>Tutaj znajduje się główna zawartość strony.</p>
+        <!-- Przyciski -->
+        <a href="https://discord.gg/FzGxTW6WPk" class="button">Dołącz do Discorda</a>
     </main>
     <footer>
         <p>&copy; 2024 Moja Strona. Wszelkie prawa zastrzeżone.</p>
